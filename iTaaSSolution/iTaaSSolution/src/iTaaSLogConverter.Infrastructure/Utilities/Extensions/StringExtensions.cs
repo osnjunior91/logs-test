@@ -6,8 +6,8 @@
         {
             if (decimal.TryParse(input, out decimal number))
             {
-                decimal roundedNumber = Math.Round(number, 0);
-                return roundedNumber.ToString($"0.{new string('0', 0)}");
+                int roundedNumber = (int)Math.Round(number, MidpointRounding.AwayFromZero);
+                return roundedNumber.ToString();
             }
             else
             {
