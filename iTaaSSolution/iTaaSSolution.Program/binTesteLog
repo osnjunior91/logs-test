@@ -1,0 +1,7 @@
+#Version: 1.0
+#Date: 02/10/2023 11:30:08
+#Fields: provider http-method status-code uri-path time-taken response-size cache-status
+MINHA CDN GET 200 "GET /robots.txt HTTP/1.1" 1002 0 HIT
+MINHA CDN GET 200 "POST /myImages HTTP/1.1" 3194 0 MISS
+MINHA CDN GET 404 "GET /not-found HTTP/1.1" 1429 0 MISS
+MINHA CDN GET 200 "GET /robots.txt HTTP/1.1" 2451 0 INVALIDATE

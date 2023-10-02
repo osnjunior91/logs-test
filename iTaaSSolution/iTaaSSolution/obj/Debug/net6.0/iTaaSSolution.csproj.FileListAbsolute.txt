@@ -1,0 +1,11 @@
+C:\Projects\logs-test\iTaaSSolution\iTaaSSolution\obj\Debug\net6.0\iTaaSSolution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\logs-test\iTaaSSolution\iTaaSSolution\obj\Debug\net6.0\iTaaSSolution.AssemblyInfoInputs.cache
+C:\Projects\logs-test\iTaaSSolution\iTaaSSolution\obj\Debug\net6.0\iTaaSSolution.AssemblyInfo.cs
+C:\Projects\logs-test\iTaaSSolution\iTaaSSolution\obj\Debug\net6.0\iTaaSSolution.csproj.CoreCompileInputs.cache
+C:\Projects\logs-test\iTaaSSolution\iTaaSSolution\bin\Debug\net6.0\iTaaSSolution.deps.json
+C:\Projects\logs-test\iTaaSSolution\iTaaSSolution\bin\Debug\net6.0\iTaaSSolution.dll
+C:\Projects\logs-test\iTaaSSolution\iTaaSSolution\bin\Debug\net6.0\iTaaSSolution.pdb
+C:\Projects\logs-test\iTaaSSolution\iTaaSSolution\obj\Debug\net6.0\iTaaSSolution.dll
+C:\Projects\logs-test\iTaaSSolution\iTaaSSolution\obj\Debug\net6.0\refint\iTaaSSolution.dll
+C:\Projects\logs-test\iTaaSSolution\iTaaSSolution\obj\Debug\net6.0\iTaaSSolution.pdb
+C:\Projects\logs-test\iTaaSSolution\iTaaSSolution\obj\Debug\net6.0\ref\iTaaSSolution.dll

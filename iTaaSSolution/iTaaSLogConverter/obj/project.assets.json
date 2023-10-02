@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "iTaaSSolution/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/iTaaSSolution.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/iTaaSSolution.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "iTaaSSolution/1.0.0": {
+      "type": "project",
+      "path": "../iTaaSSolution/iTaaSSolution.csproj",
+      "msbuildProject": "../iTaaSSolution/iTaaSSolution.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "iTaaSSolution >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\osnju\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\logs-test\\iTaaSSolution\\iTaaSSolution\\iTaaSSolution.csproj": {
+              "projectPath": "C:\\Projects\\logs-test\\iTaaSSolution\\iTaaSSolution\\iTaaSSolution.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

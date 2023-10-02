@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\logs-test\\iTaaSSolution\\iTaaSLogConverter\\iTaaSLogConverter.csproj": {}
+    "C:\\Projects\\logs-test\\iTaaSSolution\\iTaaSSolution.Program\\iTaaSSolution.Program.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\logs-test\\iTaaSSolution\\iTaaSLogConverter\\iTaaSLogConverter.csproj": {
+    "C:\\Projects\\logs-test\\iTaaSSolution\\iTaaSSolution.Program\\iTaaSSolution.Program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\logs-test\\iTaaSSolution\\iTaaSLogConverter\\iTaaSLogConverter.csproj",
-        "projectName": "iTaaSLogConverter",
-        "projectPath": "C:\\Projects\\logs-test\\iTaaSSolution\\iTaaSLogConverter\\iTaaSLogConverter.csproj",
+        "projectUniqueName": "C:\\Projects\\logs-test\\iTaaSSolution\\iTaaSSolution.Program\\iTaaSSolution.Program.csproj",
+        "projectName": "iTaaSSolution.Program",
+        "projectPath": "C:\\Projects\\logs-test\\iTaaSSolution\\iTaaSSolution.Program\\iTaaSSolution.Program.csproj",
         "packagesPath": "C:\\Users\\osnju\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\logs-test\\iTaaSSolution\\iTaaSLogConverter\\obj\\",
+        "outputPath": "C:\\Projects\\logs-test\\iTaaSSolution\\iTaaSSolution.Program\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,6 +47,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

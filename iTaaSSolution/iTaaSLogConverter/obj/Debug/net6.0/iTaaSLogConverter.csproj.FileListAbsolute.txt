@@ -1,0 +1,11 @@
+C:\Projects\logs-test\iTaaSSolution\iTaaSLogConverter\bin\Debug\net6.0\iTaaSLogConverter.deps.json
+C:\Projects\logs-test\iTaaSSolution\iTaaSLogConverter\bin\Debug\net6.0\iTaaSLogConverter.dll
+C:\Projects\logs-test\iTaaSSolution\iTaaSLogConverter\bin\Debug\net6.0\iTaaSLogConverter.pdb
+C:\Projects\logs-test\iTaaSSolution\iTaaSLogConverter\obj\Debug\net6.0\iTaaSLogConverter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\logs-test\iTaaSSolution\iTaaSLogConverter\obj\Debug\net6.0\iTaaSLogConverter.AssemblyInfoInputs.cache
+C:\Projects\logs-test\iTaaSSolution\iTaaSLogConverter\obj\Debug\net6.0\iTaaSLogConverter.AssemblyInfo.cs
+C:\Projects\logs-test\iTaaSSolution\iTaaSLogConverter\obj\Debug\net6.0\iTaaSLogConverter.csproj.CoreCompileInputs.cache
+C:\Projects\logs-test\iTaaSSolution\iTaaSLogConverter\obj\Debug\net6.0\iTaaSLogConverter.dll
+C:\Projects\logs-test\iTaaSSolution\iTaaSLogConverter\obj\Debug\net6.0\refint\iTaaSLogConverter.dll
+C:\Projects\logs-test\iTaaSSolution\iTaaSLogConverter\obj\Debug\net6.0\iTaaSLogConverter.pdb
+C:\Projects\logs-test\iTaaSSolution\iTaaSLogConverter\obj\Debug\net6.0\ref\iTaaSLogConverter.dll
