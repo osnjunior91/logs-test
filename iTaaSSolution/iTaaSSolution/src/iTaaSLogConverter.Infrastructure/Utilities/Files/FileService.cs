@@ -16,7 +16,7 @@ namespace CandidateTesting.OswaldoDaSilvaNicacioJunior.src.iTaaSLogConverter.Inf
 
                 foreach (var agoraLog in agoraLogs)
                 {
-                    writer.WriteLine($"{agoraLog.Provider} {agoraLog.HttpMethod} {agoraLog.StatusCode} {agoraLog.UriPath} {agoraLog.TimeTaken} {agoraLog.ResponseSize} {agoraLog.CacheStatus}");
+                    writer.WriteLine(agoraLog.ToString());
                 }
             }
         }

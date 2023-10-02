@@ -26,6 +26,9 @@ namespace CandidateTesting.OswaldoDaSilvaNicacioJunior.src.iTaaSLogConverter.App
             ResponseSize = minhaCdnLog.ResponseSize;
             CacheStatus = minhaCdnLog.CacheStatus;
         }
-
+        public override string ToString()
+        {
+            return $"{Provider} {HttpMethod} {StatusCode} {UriPath} {TimeTaken} {ResponseSize} {CacheStatus}";
+        }
     }
 }

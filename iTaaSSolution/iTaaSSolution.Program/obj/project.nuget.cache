@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "/xB7LXculVB8qaOduGC1PDXzzfcdB0OMN1lOg7r5fqFmV8ajH4QZvCIW1brdHsqbft5gbrw9Oiht6lZgRaxn8g==",
+  "dgSpecHash": "4rq0CDtVp1COYM288tPdQEd/zWnU7kES6NWkRtcuuZqnpBeoM5ie9Fu4MQBJ3NI3VXBaH3qLPU2WWJFiK7SQnA==",
   "success": true,
   "projectFilePath": "C:\\Projects\\logs-test\\iTaaSSolution\\iTaaSSolution.Program\\iTaaSSolution.Program.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\osnju\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
-    "C:\\Users\\osnju\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    "C:\\Users\\osnju\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\osnju\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\osnju\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\osnju\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
   ],
   "logs": []
 }
