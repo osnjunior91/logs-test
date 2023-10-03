@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CandidateTesting.OswaldoDaSilvaNicacioJunior.src.iTaaSLogConverter.Application.DTOs
+﻿namespace CandidateTesting.OswaldoDaSilvaNicacioJunior.src.iTaaSLogConverter.Application.DTOs
 {
     public class AgoraLogEntryDto
     {
@@ -21,14 +15,26 @@ namespace CandidateTesting.OswaldoDaSilvaNicacioJunior.src.iTaaSLogConverter.App
             Provider = "MINHA CDN"; 
             HttpMethod = minhaCdnLog.Request.Split('/')[0].Trim().Replace("\"", "");
             StatusCode = minhaCdnLog.StatusCode;
-            UriPath = minhaCdnLog.Request.Split('/')[1].Trim();
+            UriPath = minhaCdnLog.Request.Split('/')[1].Trim().Split(' ')[0].Trim();
             TimeTaken = minhaCdnLog.TimeTaken;
             ResponseSize = minhaCdnLog.ResponseSize;
-            CacheStatus = minhaCdnLog.CacheStatus;
+            CacheStatus = ConvertCacheStatus(minhaCdnLog.CacheStatus);
         }
+
+        private string ConvertCacheStatus(string cacheStatus)
+        {
+            switch (cacheStatus)
+            {
+                case "INVALIDATE":
+                    return "REFRESH_HIT";
+                default:
+                    return cacheStatus;
+            }
+        }
+
         public override string ToString()
         {
-            return $"{Provider} {HttpMethod} {StatusCode} {UriPath} {TimeTaken} {ResponseSize} {CacheStatus}";
+            return $"\"{Provider}\" {HttpMethod} {StatusCode} /{UriPath} {TimeTaken} {ResponseSize} {CacheStatus}";
         }
     }
 }

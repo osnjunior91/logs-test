@@ -18,3 +18,4 @@ C:\Projects\logs-test\iTaaSSolution\iTaaSSolution.Program\obj\Debug\net6.0\iTaaS
 C:\Projects\logs-test\iTaaSSolution\iTaaSSolution.Program\obj\Debug\net6.0\iTaaSSolution.Program.csproj.CopyComplete
 C:\Projects\logs-test\iTaaSSolution\iTaaSSolution.Program\bin\Debug\net6.0\iTaaSSolution.dll
 C:\Projects\logs-test\iTaaSSolution\iTaaSSolution.Program\bin\Debug\net6.0\iTaaSSolution.pdb
+C:\Projects\logs-test\iTaaSSolution\iTaaSSolution.Program\bin\Debug\net6.0\nunit.framework.dll

@@ -11,18 +11,22 @@ namespace CandidateTesting.OswaldoDaSilvaNicacioJunior.iTaaSSolution.Program
     {
         static async Task Main(string[] args)
         {
-            var serviceCollection = new ServiceCollection();
-            ConfigureServices(serviceCollection);
-            var serviceProvider = serviceCollection.BuildServiceProvider();
+            try
+            {
+                Console.WriteLine("Iniciando a aplicação");
+                var serviceCollection = new ServiceCollection();
+                ConfigureServices(serviceCollection);
+                var serviceProvider = serviceCollection.BuildServiceProvider();
+                var _logService = serviceProvider.GetService<ILogConverterService>();
+                string targetPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                await _logService.ConvertLogAsync("https://s3.amazonaws.com/uux-itaas-static/minha-cdn-logs/input-01.txt", targetPath);
+                Console.WriteLine("Aplicação Finalizada");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
 
-            var _logService = serviceProvider.GetService<ILogConverterService>();
-            string targetPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-
-
-            await _logService.ConvertLogAsync("https://s3.amazonaws.com/uux-itaas-static/minha-cdn-logs/input-01.txt", targetPath);
-
-            Console.WriteLine("Iniciando a aplicação");
-            
         }
 
         public static void ConfigureServices(IServiceCollection services)
